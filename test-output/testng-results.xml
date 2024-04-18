@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40255" started-at="2022-03-23T13:29:52 IST" finished-at="2022-03-23T13:30:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40255" started-at="2022-03-23T13:29:52 IST" finished-at="2022-03-23T13:30:32 IST">
+      <class name="ramakrishna.End2EndProject_Realtime.HomePage">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:ramakrishna.End2EndProject_Realtime.HomePage@31f924f5]" name="initialization" is-config="true" duration-ms="2914" started-at="2022-03-23T13:29:52 IST" finished-at="2022-03-23T13:29:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:ramakrishna.End2EndProject_Realtime.HomePage@31f924f5]" name="basePageNavigation" duration-ms="20003" started-at="2022-03-23T13:29:55 IST" data-provider="getData" finished-at="2022-03-23T13:30:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krishna@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:ramakrishna.End2EndProject_Realtime.HomePage@31f924f5]" name="basePageNavigation" duration-ms="17222" started-at="2022-03-23T13:30:15 IST" data-provider="getData" finished-at="2022-03-23T13:30:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kittu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765432]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ramakrishna.End2EndProject_Realtime.HomePage@31f924f5]" name="teardown" is-config="true" duration-ms="68" started-at="2022-03-23T13:30:32 IST" finished-at="2022-03-23T13:30:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ramakrishna.End2EndProject_Realtime.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
